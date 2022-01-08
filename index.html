@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Joaquín Nieva" />
+    <meta name="description" content="Desafio Wantfrom Company" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/index.css" />
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>arc</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home"><img src="/assets/icon.svg" alt="arc" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- landing -->
+      <section class="landing" id="home">
+        <div class="row landing-overlay">
+          <div class="col-lg-6">
+            <div class="landing-text">
+              <h2>Creamos tu espacio</h2>
+              <p>Somos profesionales construyendo ideas a tu gusto y preferencia</p>
+              <a href="#about" class="btn btn-dark landing-btn"> Ver más</a>
+            </div>
+          </div>
+          <div class="col carrusel centrar">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                />
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/assets/img1.png" class="d-block w-100" alt="architecture image" />
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img2.png" class="d-block w-100" alt="architecture image" />
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img3.png" class="d-block w-100" alt="architecture image" />
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img4.png" class="d-block w-100" alt="architecture image" />
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img5.png" class="d-block w-100" alt="architecture image" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- quiénes somos -->
+      <section class="about row" id="about">
+        <h1 class="about-title">Quiénes somos</h1>
+        <p class="about-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur vitae reprehenderit consequatur ullam
+          voluptatem nostrum sit amet consectetur adipisicing elit</p
+        >
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 about-cont-img">
+            <img class="about-img" src="assets/about.png" />
+          </div>
+          <div class="col-lg-6 col-sm-12 about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis atque exercitationem sapiente minima facilis
+            alias magnam, consectetur vitae reprehenderit consequatur ullam voluptatem nostrum ex saepe at expedita
+            quas, illo eaque.
+          </div>
+        </div>
+      </section>
+      <!-- servicios -->
+      <section class="servicios pt-5" id="services">
+        <h1 class="text-center p-5">Servicios</h1>
+        <div class="row cont-services">
+          <div class="col p-3 text-center serv services1">
+            <div class="services">
+              <h1 class="service-num">1</h1>
+              <h3 class="service-title">Arquitectura</h3>
+              <p class="service-text"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis atque exercitationem adipisicing elit.
+                Nobis atque exercitationem adipisicing elit. Nobis atque exercitationem</p
+              ></div
+            >
+          </div>
+          <div class="col p-3 text-center serv services2">
+            <div class="services">
+              <h1 class="service-num">2</h1>
+              <h3 class="service-title">Interiores</h3>
+              <p class="service-text"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis atque exercitationem adipisicing elit.
+                Nobis atque exercitationem adipisicing elit. Nobis atque exercitationem</p
+              ></div
+            >
+          </div>
+          <div class="col p-3 text-center serv services3">
+            <div class="services"
+              ><h1 class="service-num">3</h1>
+              <h3 class="service-title">Planificacion</h3>
+              <p class="service-text"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis atque exercitationem adipisicing elit.
+                Nobis atque exercitationem adipisicing elit. Nobis atque exercitationem</p
+              ></div
+            >
+          </div>
+        </div>
+      </section>
+      <!-- contacto -->
+      <section class="contacto" id="contact">
+        <div class="cont-contact">
+          <h1 class="text-center m-5">Contacto</h1>
+          <div class="row">
+            <div class="col mb-5 centrar contact-left">
+              <img class="contact-img" src="/assets/contact.png" alt="contact"
+            /></div>
+            <form class="col d-flex flex-column">
+              <div class="form-group p-3">
+                <label for="exampleInputEmail1">Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre" />
+              </div>
+              <div class="form-group p-3">
+                <label for="exampleInputPassword1">Mail</label>
+                <input type="password" class="form-control" placeholder="Mail" />
+              </div>
+              <div class="form-group p-3">
+                <label for="exampleInputPassword1">Mensaje</label>
+                <input type="password" class="form-control" placeholder="Mensaje" />
+              </div>
+              <button type="submit" class="btn btn-dark m-5">Enviar</button>
+            </form>
+            <div class="d-flex justify-content-center">
+              <a href="https://www.instagram.com/" target="_blank">
+                <img class="media-icon" src="assets/Instagram.png" alt="" />
+              </a>
+              <a href="https://www.facebook.com/" target="_blank">
+                <img class="media-icon" src="assets/Facebook.png" alt="" />
+              </a>
+              <a href="https://twitter.com/" target="_blank">
+                <img class="media-icon" src="assets/Twitter.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="row p-5">
+        <div class="col-md-4 col-xs-12 mt-3">
+          <div class="nav-logo"><img src="assets/icon.svg" alt="icon arc" /></div>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#home" class="nav-link nav-anchor p-0">Inicio</a></li>
+            <li class="nav-item mb-2"><a href="#about" class="nav-link nav-anchor p-0">Quiénes somos</a></li>
+            <li class="nav-item mb-2"><a href="#services" class="nav-link nav-anchor p-0">Servicios</a></li>
+            <li class="nav-item mb-2"><a href="#contact" class="nav-link nav-anchor p-0">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col"></div>
+        <div class="col-md-4 col-xs-12 mt-3 footer-contact">
+          <h3 class="footer-title">Atencion al cliente</h3>
+          <p class="nav-item mb-2">Direccion: Lorem ipsum</p>
+          <p class="nav-item mb-2">Contacto: Lorem ipsum</p>
+          <p class="nav-item mb-2">Horario: Lorem ipsum</p>
+          <p class="nav-item mb-2">Mail: Lorem ipsum</p>
+        </div>
+      </div>
+      <div class="mb-3 footer-contact d-flex flex-column justify-content-end">
+        <p class="nav-item mb-2 text-center"><a href="#privacy">Privacidad</a> | <a href="#terms">Condiciones</a></p>
+        <p class="nav-item mb-2 text-center"> Copyright © Todos los derechos reservados </p>
+      </div>
+      <p class="m-0 p-3 copy text-center">
+        Creado por
+        <a class="jn" href="https://joaquinnieva.github.io/joaquinnieva/" target="_blank">Joaquín Nieva</a>
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
